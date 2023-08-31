@@ -11,6 +11,7 @@
 		99D363D02AA0753200AE7627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D363CF2AA0753200AE7627 /* ContentView.swift */; };
 		99D363D22AA0753400AE7627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D363D12AA0753400AE7627 /* Assets.xcassets */; };
 		99D363D52AA0753400AE7627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D363D42AA0753400AE7627 /* Preview Assets.xcassets */; };
+		99D363DC2AA0765800AE7627 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D363DB2AA0765800AE7627 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		99D363CF2AA0753200AE7627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99D363D12AA0753400AE7627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D363D42AA0753400AE7627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99D363DB2AA0765800AE7627 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				99D363CD2AA0753200AE7627 /* LocationManagerApp.swift */,
 				99D363CF2AA0753200AE7627 /* ContentView.swift */,
+				99D363DB2AA0765800AE7627 /* LocationManager.swift */,
 				99D363D12AA0753400AE7627 /* Assets.xcassets */,
 				99D363D32AA0753400AE7627 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				99D363D02AA0753200AE7627 /* ContentView.swift in Sources */,
 				99D363CE2AA0753200AE7627 /* LocationManagerApp.swift in Sources */,
+				99D363DC2AA0765800AE7627 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,8 @@
 				DEVELOPMENT_TEAM = 438XUBP5L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to device location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to device location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +305,8 @@
 				DEVELOPMENT_TEAM = 438XUBP5L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to device location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to device location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
